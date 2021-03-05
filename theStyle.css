@@ -1,0 +1,45 @@
+body{
+    background-image:url("background.png");
+  }
+
+  h1{
+      font-size:5vw;
+      color:white;
+      text-align:center;
+  }
+
+  #mainbody{
+      display:grid;
+      grid-template-columns:40% 60%;
+      grid-template-rows:30vw 40vw 30vw;
+      margin:3vw;
+  }
+
+  .text{
+    background-color:rgb(35, 199, 14);
+    font-size:5vw;
+  }
+
+  #slidescontrol{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+  }
+
+  button{
+      margin:5vw;
+      width:10vw;
+      height:4vw;
+      border-radius:20px;
+      font-size:2vw;
+      border:none;
+      text-align:center;
+      background-color:rgb(35,199,14);
+  }
+  button:hover{
+      background-color:white;
+  }
+
+
+
+ 
